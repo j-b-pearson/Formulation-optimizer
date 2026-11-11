@@ -86,7 +86,7 @@ def main() -> None:
     args = parser.parse_args()
     browser = next((b for b in BROWSERS if b.exists()), None)
     if browser is None:
-        raise SystemExit("Chrome or Edge not found; take the screenshots by hand (see README)")
+        raise SystemExit("Chrome or Edge not found; take the screenshots by hand")
     out_dir = ROOT / "reports" / "v1" / "figures"  # config paths.figures_dir
     profile = Path(tempfile.mkdtemp(prefix="formopt_shots_"))
     proc = subprocess.Popen(
