@@ -1,0 +1,98 @@
+{
+  "problem": "enamel",
+  "n_experiments_used": 21,
+  "new_experiments": 0,
+  "changes_multiplier": {
+    "pai_resin": 1.25
+  },
+  "old_prices": {
+    "pai_resin": 14.0,
+    "pei_resin": 5.0,
+    "solvent": 1.8,
+    "catalyst": 40.0
+  },
+  "new_prices": {
+    "pai_resin": 17.5,
+    "pei_resin": 5.0,
+    "solvent": 1.8,
+    "catalyst": 40.0
+  },
+  "min_pof": 0.8,
+  "n_candidates": 50000,
+  "old": {
+    "recipe": {
+      "pai_fraction": 0.0033304957585585937,
+      "solids_pct": 36.7383957284572,
+      "catalyst_phr": 0.6363687245535073,
+      "oven_temp_c": 477.35219982387963,
+      "line_speed_m_min": 11.804488465848857
+    },
+    "x": [
+      0.0033304957585585937,
+      36.7383957284572,
+      0.6363687245535073,
+      477.35219982387963,
+      11.804488465848857
+    ],
+    "material_cost": 3.241188289535522,
+    "pof": 0.9395925019634112,
+    "pof_per_spec": {
+      "breakdown_kv": 0.9998954500677598,
+      "flex_pass": 0.9396907465672915,
+      "viscosity_cp": 1.0
+    },
+    "predicted_outputs": {
+      "breakdown_kv": 33.71617197860945,
+      "flex_pass": 0.8685348526124315,
+      "viscosity_cp": 2429.7975721361536
+    },
+    "met_min_pof": true,
+    "truly_feasible": true,
+    "true_outputs": {
+      "breakdown_kv": 30.277119558683907,
+      "flex_pass": 0.921731653393574,
+      "viscosity_cp": 2459.471237869426
+    }
+  },
+  "new": {
+    "recipe": {
+      "pai_fraction": 0.0033304957585585937,
+      "solids_pct": 36.7383957284572,
+      "catalyst_phr": 0.6363687245535073,
+      "oven_temp_c": 477.35219982387963,
+      "line_speed_m_min": 11.804488465848857
+    },
+    "x": [
+      0.0033304957585585937,
+      36.7383957284572,
+      0.6363687245535073,
+      477.35219982387963,
+      11.804488465848857
+    ],
+    "material_cost": 3.2454707870257677,
+    "pof": 0.9395925019634112,
+    "pof_per_spec": {
+      "breakdown_kv": 0.9998954500677598,
+      "flex_pass": 0.9396907465672915,
+      "viscosity_cp": 1.0
+    },
+    "predicted_outputs": {
+      "breakdown_kv": 33.71617197860945,
+      "flex_pass": 0.8685348526124315,
+      "viscosity_cp": 2429.7975721361536
+    },
+    "met_min_pof": true,
+    "truly_feasible": true,
+    "true_outputs": {
+      "breakdown_kv": 30.277119558683907,
+      "flex_pass": 0.921731653393574,
+      "viscosity_cp": 2459.471237869426
+    }
+  },
+  "old_recipe_cost_at_new_prices": 3.2454707870257677,
+  "reference_cost_old_prices": 2.925792411625194,
+  "reference_cost_new_prices": 2.9257923678752986,
+  "source_method": "bo_cost_cooled",
+  "source_seed": 16,
+  "source_run": "30 seeds, full mode, budget $15,000"
+}

@@ -1,0 +1,123 @@
+{
+  "n_boot": 10000,
+  "bootstrap_seed": 1,
+  "h1": {
+    "bo_cost_cooled": {
+      "verdict": "not supported",
+      "starts_to_pay_at_s": null
+    },
+    "bo_cost": {
+      "verdict": "not supported",
+      "starts_to_pay_at_s": null
+    }
+  },
+  "h2": {
+    "method": "bo_cost",
+    "baseline": "bo_plain",
+    "success_rate_method": 0.39,
+    "success_rate_baseline": 0.37,
+    "paired_success_difference": 0.02,
+    "ci_lo": -0.1,
+    "ci_hi": 0.14,
+    "n_seeds": 100,
+    "seeds_only_method_succeeded": 19,
+    "seeds_only_baseline_succeeded": 17,
+    "mcnemar_exact_p_two_sided": 0.8679394004284404,
+    "replicated": false
+  },
+  "growth": [
+    {
+      "method": "bo_cost_cooled",
+      "metric": "spend_saved",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": -320.3322679252418,
+      "A_s10": -255.46446444083008,
+      "growth": -255.46446444083008,
+      "growth_ci_lo": -880.5075682770455,
+      "growth_ci_hi": 378.983631173771,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": false,
+      "criterion_met": false
+    },
+    {
+      "method": "bo_cost_cooled",
+      "metric": "success_gain",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": -0.05,
+      "A_s10": -0.01,
+      "growth": -0.01,
+      "growth_ci_lo": -0.12,
+      "growth_ci_hi": 0.1,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": false,
+      "criterion_met": false
+    },
+    {
+      "method": "bo_cost_cooled",
+      "metric": "regret_reduction",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": 0.011987778254967054,
+      "A_s10": 0.043700378592383286,
+      "growth": 0.043700378592383286,
+      "growth_ci_lo": -0.028466284618867167,
+      "growth_ci_hi": 0.11776811753139307,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": true,
+      "criterion_met": false
+    },
+    {
+      "method": "bo_cost",
+      "metric": "spend_saved",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": -184.50735198905954,
+      "A_s10": -467.62139328012023,
+      "growth": -467.62139328012023,
+      "growth_ci_lo": -1123.5771795457413,
+      "growth_ci_hi": 181.48173775123098,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": false,
+      "criterion_met": false
+    },
+    {
+      "method": "bo_cost",
+      "metric": "success_gain",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": 0.01,
+      "A_s10": -0.03,
+      "growth": -0.03,
+      "growth_ci_lo": -0.1402499999999998,
+      "growth_ci_hi": 0.09,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": false,
+      "criterion_met": false
+    },
+    {
+      "method": "bo_cost",
+      "metric": "regret_reduction",
+      "low_level": 1.0,
+      "high_level": 10.0,
+      "A_s1": 0.0,
+      "A_s3": 0.02814008947934527,
+      "A_s10": 0.01776052474264457,
+      "growth": 0.01776052474264457,
+      "growth_ci_lo": -0.061422414928257146,
+      "growth_ci_hi": 0.09554834206401448,
+      "growth_ci_above_zero": false,
+      "non_decreasing_across_levels": false,
+      "criterion_met": false
+    }
+  ],
+  "h1_verdicts_unchanged": true,
+  "starts_to_pay_unchanged": true,
+  "h2_verdict_unchanged": true
+}

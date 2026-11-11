@@ -1,0 +1,2 @@
+method,baseline,success_rate_method,success_rate_baseline,paired_success_difference,ci_lo,ci_hi,n_seeds,seeds_only_method_succeeded,seeds_only_baseline_succeeded,mcnemar_exact_p_two_sided,replicated
+bo_cost,bo_plain,0.39,0.37,0.02,-0.09,0.13024999999999864,100,19,17,0.8679394004284404,False

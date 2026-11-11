@@ -1,0 +1,100 @@
+{
+  "problem": "concrete",
+  "n_experiments_used": 29,
+  "new_experiments": 0,
+  "changes_multiplier": {
+    "cement": 1.3
+  },
+  "old_prices": {
+    "cement": 0.16,
+    "slag": 0.14,
+    "fly_ash": 0.04,
+    "water": 0.001,
+    "superplasticizer": 2.0,
+    "coarse_agg": 0.0185,
+    "fine_agg": 0.0145
+  },
+  "new_prices": {
+    "cement": 0.20800000000000002,
+    "slag": 0.14,
+    "fly_ash": 0.04,
+    "water": 0.001,
+    "superplasticizer": 2.0,
+    "coarse_agg": 0.0185,
+    "fine_agg": 0.0145
+  },
+  "min_pof": 0.8,
+  "n_candidates": 50000,
+  "old": {
+    "recipe": {
+      "cement": 238.2448859265884,
+      "slag": 1.5892911712349618,
+      "fly_ash": 139.42524649588867,
+      "water": 127.56126916270553,
+      "superplasticizer": 8.006464100911842,
+      "coarse_agg": 987.4502554466242,
+      "fine_agg": 834.4184249991188
+    },
+    "x": [
+      238.2448859265884,
+      1.5892911712349618,
+      139.42524649588867,
+      127.56126916270553,
+      8.006464100911842,
+      987.4502554466242,
+      834.4184249991188
+    ],
+    "material_cost": 90.42607873129876,
+    "pof": 0.8011505581858775,
+    "pof_per_spec": {
+      "strength_mpa": 0.8011505581858775
+    },
+    "predicted_outputs": {
+      "strength_mpa": 52.811273741519244
+    },
+    "met_min_pof": true,
+    "truly_feasible": false,
+    "true_outputs": {
+      "strength_mpa": 41.79727746382194
+    }
+  },
+  "new": {
+    "recipe": {
+      "cement": 238.2448859265884,
+      "slag": 1.5892911712349618,
+      "fly_ash": 139.42524649588867,
+      "water": 127.56126916270553,
+      "superplasticizer": 8.006464100911842,
+      "coarse_agg": 987.4502554466242,
+      "fine_agg": 834.4184249991188
+    },
+    "x": [
+      238.2448859265884,
+      1.5892911712349618,
+      139.42524649588867,
+      127.56126916270553,
+      8.006464100911842,
+      987.4502554466242,
+      834.4184249991188
+    ],
+    "material_cost": 101.861833255775,
+    "pof": 0.8011505581858775,
+    "pof_per_spec": {
+      "strength_mpa": 0.8011505581858775
+    },
+    "predicted_outputs": {
+      "strength_mpa": 52.811273741519244
+    },
+    "met_min_pof": true,
+    "truly_feasible": false,
+    "true_outputs": {
+      "strength_mpa": 41.79727746382194
+    }
+  },
+  "old_recipe_cost_at_new_prices": 101.861833255775,
+  "reference_cost_old_prices": 85.39960293276062,
+  "reference_cost_new_prices": 96.60653445186105,
+  "source_method": "bo_cost_cooled",
+  "source_seed": 11,
+  "source_run": "30 seeds, full mode, budget $7,500"
+}

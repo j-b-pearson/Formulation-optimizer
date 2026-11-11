@@ -1,0 +1,36 @@
+# Python and tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Local notes and assistant files (never published)
+private/
+CLAUDE.md
+.claude/
+
+# Data (recreated by `python -m formopt download`)
+data/raw/
+data/interim/
+data/processed/
+
+# MLflow
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Large long-format benchmark files in any reports/ subfolder.
+# Summaries, campaign metrics, JSON and figures are committed.
+reports/**/benchmark_*.csv
+
+# Scratch outputs of --quick runs
+reports/v1/quick/
+reports/quick/
+
+# Logs of long background runs
+reports/v2/logs/

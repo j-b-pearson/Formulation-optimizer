@@ -1,0 +1,47 @@
+{
+  "problem": "concrete",
+  "n_train_lhs": 25,
+  "n_test": 500,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "per_seed": [
+    {
+      "seed": 0,
+      "strength_mpa_predictive_coverage": 0.818,
+      "strength_mpa_latent_coverage_vs_truth": 0.928
+    },
+    {
+      "seed": 1,
+      "strength_mpa_predictive_coverage": 0.742,
+      "strength_mpa_latent_coverage_vs_truth": 0.85
+    },
+    {
+      "seed": 2,
+      "strength_mpa_predictive_coverage": 0.614,
+      "strength_mpa_latent_coverage_vs_truth": 0.732
+    },
+    {
+      "seed": 3,
+      "strength_mpa_predictive_coverage": 0.808,
+      "strength_mpa_latent_coverage_vs_truth": 0.866
+    },
+    {
+      "seed": 4,
+      "strength_mpa_predictive_coverage": 0.576,
+      "strength_mpa_latent_coverage_vs_truth": 0.718
+    }
+  ],
+  "mean": {
+    "strength_mpa_predictive_coverage": 0.7116,
+    "strength_mpa_latent_coverage_vs_truth": 0.8187999999999999
+  },
+  "target_range": [
+    0.85,
+    0.99
+  ]
+}

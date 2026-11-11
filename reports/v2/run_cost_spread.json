@@ -1,0 +1,37 @@
+{
+  "formula": "run_cost = k_s * (1 + (s - 1) * u(x)), u = (driver - min) / (max - min)",
+  "driver": "v1 variable run cost: batch_kg * material_cost + oven energy/time",
+  "extremes_method": "exact: driver evaluated at all 32 corners of the known-feasible box",
+  "mean_method": "Monte Carlo, 200000 uniform known-feasible points, seed 2026",
+  "driver_min": 149.0,
+  "driver_max": 1747.6,
+  "mean_u": 0.2580266327081403,
+  "v1_mean_run_cost": 711.4813750472331,
+  "v1_run_cost_min": 299.0,
+  "v1_run_cost_max": 1897.6,
+  "v1_effective_s": 6.346488294314381,
+  "budget": 15000.0,
+  "levels": [
+    {
+      "s": 1.0,
+      "k_cheapest_run": 711.4813750472331,
+      "most_expensive_run": 711.4813750472331,
+      "mean_run_cost": 711.4813750472331,
+      "expected_runs_in_budget_at_mean": 21.082772544824795
+    },
+    {
+      "s": 3.0,
+      "k_cheapest_run": 469.2984021586295,
+      "most_expensive_run": 1407.8952064758885,
+      "mean_run_cost": 711.4813750472331,
+      "expected_runs_in_budget_at_mean": 21.082772544824795
+    },
+    {
+      "s": 10.0,
+      "k_cheapest_run": 214.15714713548186,
+      "most_expensive_run": 2141.5714713548186,
+      "mean_run_cost": 711.4813750472331,
+      "expected_runs_in_budget_at_mean": 21.082772544824795
+    }
+  ]
+}

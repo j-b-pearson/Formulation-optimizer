@@ -1,0 +1,87 @@
+{
+  "model": "qwen3:14b",
+  "reasoning_effort": "none",
+  "seconds": 37.828385599998,
+  "facts_sent": {
+    "problem": "enamel",
+    "recipe": {
+      "pai_fraction": 0.1362,
+      "solids_pct": 41.7287,
+      "catalyst_phr": 0.5141,
+      "oven_temp_c": 433.096,
+      "line_speed_m_min": 38.3205
+    },
+    "units": {
+      "pai_fraction": "fraction",
+      "solids_pct": "mass %",
+      "catalyst_phr": "phr",
+      "oven_temp_c": "deg C",
+      "line_speed_m_min": "m/min"
+    },
+    "predicted_outputs": {
+      "breakdown_kv": {
+        "predicted": 27.7305,
+        "range_95": [
+          18.5876,
+          36.8734
+        ],
+        "spec_lower": 30.0,
+        "spec_upper": null,
+        "probability_of_passing": 0.313
+      },
+      "flex_pass": {
+        "predicted": 1.0785,
+        "range_95": [
+          0.7937,
+          1.3634
+        ],
+        "spec_lower": 0.8,
+        "spec_upper": null,
+        "probability_of_passing": 0.972
+      },
+      "viscosity_cp": {
+        "predicted": 4483.0614,
+        "range_95": [
+          3629.4299,
+          5537.4646
+        ],
+        "spec_lower": 2000.0,
+        "spec_upper": 15000.0,
+        "probability_of_passing": 1.0
+      }
+    },
+    "probability_of_passing_all_specs": 0.305,
+    "pass_probability_pct": 30.5,
+    "risk_label": "High",
+    "risk_rule": {
+      "high_below": 0.5,
+      "low_at_or_above": 0.8,
+      "text": "High below 50 %, Medium from 50 % to below 80 %, Low at 80 % or above"
+    },
+    "interval_level_pct": 95,
+    "run_cost_usd": 381.83,
+    "material_cost": 3.8526,
+    "note": "Predictions are Gaussian process estimates, not measurements."
+  },
+  "risk_label_computed_in_code": "High",
+  "source": "llm",
+  "attempts": [
+    {
+      "text": "{\n  \"title\": \"Enamel Coating Experiment\",\n  \"why_this_run\": \"To evaluate the performance of a new enamel formulation under specified process conditions.\",\n  \"what_to_watch\": [\n    \"Breakdown KV (spec lower: 30.0, predicted: 27.73, 95% range: 18.59\u201336.87)\",\n    \"Flex Pass (spec lower: 0.8, predicted: 1.08, 95% range: 0.79\u20131.36)\",\n    \"Viscosity (spec range: 2000\u201315000, predicted: 4483, 95% range: 3629\u20135537)\"\n  ],\n  \"risk_label\": \"High\",\n  \"risk\": \"This is a high risk experiment because the probability of passing all specifications is 30.5%.\"\n}",
+      "problems": []
+    }
+  ],
+  "fallback_reason": "",
+  "lab_note": {
+    "title": "Enamel Coating Experiment",
+    "why_this_run": "To evaluate the performance of a new enamel formulation under specified process conditions.",
+    "what_to_watch": [
+      "Breakdown KV (spec lower: 30.0, predicted: 27.73, 95% range: 18.59\u201336.87)",
+      "Flex Pass (spec lower: 0.8, predicted: 1.08, 95% range: 0.79\u20131.36)",
+      "Viscosity (spec range: 2000\u201315000, predicted: 4483, 95% range: 3629\u20135537)"
+    ],
+    "risk_label": "High",
+    "risk": "This is a high risk experiment because the probability of passing all specifications is 30.5%."
+  },
+  "label": "LLM-drafted text for illustration; not a measured result"
+}

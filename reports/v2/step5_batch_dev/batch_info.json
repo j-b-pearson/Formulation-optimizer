@@ -1,0 +1,26 @@
+{
+  "label": "EXPLORATORY, dev seeds only",
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "q": 4,
+  "methods": [
+    "bo_plain",
+    "bo_plain_q4",
+    "bo_cost_cooled",
+    "bo_cost_cooled_q4"
+  ],
+  "budget": 15000.0,
+  "reference_cost": 2.925792411625194,
+  "n_jobs": 6,
+  "wall_time_s": 23.81768379999994
+}

@@ -1,0 +1,71 @@
+{
+  "problem": "enamel",
+  "n_train_lhs": 25,
+  "n_test": 500,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "per_seed": [
+    {
+      "seed": 0,
+      "breakdown_kv_predictive_coverage": 0.766,
+      "breakdown_kv_latent_coverage_vs_truth": 0.774,
+      "flex_pass_predictive_coverage": 0.79,
+      "flex_pass_latent_coverage_vs_truth": 0.85,
+      "viscosity_cp_predictive_coverage": 0.976,
+      "viscosity_cp_latent_coverage_vs_truth": 0.994
+    },
+    {
+      "seed": 1,
+      "breakdown_kv_predictive_coverage": 0.814,
+      "breakdown_kv_latent_coverage_vs_truth": 0.86,
+      "flex_pass_predictive_coverage": 0.812,
+      "flex_pass_latent_coverage_vs_truth": 0.856,
+      "viscosity_cp_predictive_coverage": 0.856,
+      "viscosity_cp_latent_coverage_vs_truth": 0.844
+    },
+    {
+      "seed": 2,
+      "breakdown_kv_predictive_coverage": 0.852,
+      "breakdown_kv_latent_coverage_vs_truth": 0.874,
+      "flex_pass_predictive_coverage": 0.796,
+      "flex_pass_latent_coverage_vs_truth": 0.796,
+      "viscosity_cp_predictive_coverage": 0.938,
+      "viscosity_cp_latent_coverage_vs_truth": 0.998
+    },
+    {
+      "seed": 3,
+      "breakdown_kv_predictive_coverage": 0.976,
+      "breakdown_kv_latent_coverage_vs_truth": 0.99,
+      "flex_pass_predictive_coverage": 0.712,
+      "flex_pass_latent_coverage_vs_truth": 0.768,
+      "viscosity_cp_predictive_coverage": 0.9,
+      "viscosity_cp_latent_coverage_vs_truth": 0.954
+    },
+    {
+      "seed": 4,
+      "breakdown_kv_predictive_coverage": 0.966,
+      "breakdown_kv_latent_coverage_vs_truth": 0.976,
+      "flex_pass_predictive_coverage": 0.824,
+      "flex_pass_latent_coverage_vs_truth": 0.856,
+      "viscosity_cp_predictive_coverage": 0.894,
+      "viscosity_cp_latent_coverage_vs_truth": 0.896
+    }
+  ],
+  "mean": {
+    "breakdown_kv_predictive_coverage": 0.8747999999999999,
+    "breakdown_kv_latent_coverage_vs_truth": 0.8948,
+    "flex_pass_predictive_coverage": 0.7868,
+    "flex_pass_latent_coverage_vs_truth": 0.8251999999999999,
+    "viscosity_cp_predictive_coverage": 0.9127999999999998,
+    "viscosity_cp_latent_coverage_vs_truth": 0.9372
+  },
+  "target_range": [
+    0.85,
+    0.99
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "rule": "If the estimated total exceeds 6.0 h with --n-jobs 6, cut reporting seeds to 31..90 (logged as a deviation).",
+  "n_jobs": 6,
+  "dev_seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "dev_sweep_wall_s": 84.82520700000168,
+  "dev_v1_settings_wall_s": 90.72777230000065,
+  "scale_factor": 10.0,
+  "estimated_sweep_s": 848.2520700000168,
+  "estimated_v1_settings_s": 907.2777230000065,
+  "estimated_total_hours": 0.4876471647222287,
+  "limit_hours": 6.0,
+  "cut_reporting_seeds": false,
+  "reporting_seeds_to_use": 100
+}

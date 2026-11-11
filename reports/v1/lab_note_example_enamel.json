@@ -1,0 +1,68 @@
+{
+  "model": "qwen3:14b",
+  "seconds": 46.62986240000464,
+  "facts_sent": {
+    "problem": "enamel",
+    "recipe": {
+      "pai_fraction": 0.1362,
+      "solids_pct": 41.7287,
+      "catalyst_phr": 0.5141,
+      "oven_temp_c": 433.096,
+      "line_speed_m_min": 38.3205
+    },
+    "units": {
+      "pai_fraction": "fraction",
+      "solids_pct": "mass %",
+      "catalyst_phr": "phr",
+      "oven_temp_c": "deg C",
+      "line_speed_m_min": "m/min"
+    },
+    "predicted_outputs": {
+      "breakdown_kv": {
+        "predicted": 27.7305,
+        "range_95": [
+          18.5876,
+          36.8734
+        ],
+        "spec_lower": 30.0,
+        "spec_upper": null,
+        "probability_of_passing": 0.313
+      },
+      "flex_pass": {
+        "predicted": 1.0785,
+        "range_95": [
+          0.7937,
+          1.3634
+        ],
+        "spec_lower": 0.8,
+        "spec_upper": null,
+        "probability_of_passing": 0.972
+      },
+      "viscosity_cp": {
+        "predicted": 4483.0614,
+        "range_95": [
+          3629.4299,
+          5537.4646
+        ],
+        "spec_lower": 2000.0,
+        "spec_upper": 15000.0,
+        "probability_of_passing": 1.0
+      }
+    },
+    "probability_of_passing_all_specs": 0.305,
+    "run_cost_usd": 381.83,
+    "material_cost": 3.8526,
+    "note": "Predictions are Gaussian process estimates, not measurements."
+  },
+  "lab_note": {
+    "title": "Enamel Coating Process Experiment",
+    "why_this_run": "Evaluate formulation for enamel with specified parameters",
+    "what_to_watch": [
+      "breakdown_kv",
+      "flex_pass",
+      "viscosity_cp"
+    ],
+    "risk": "Low (30.5% chance of meeting all specs), high viscosity risk mitigated (100% pass probability), moderate breakdown risk (31.3% pass), high flex pass probability (97.2% pass)"
+  },
+  "label": "LLM-drafted text for illustration; not a measured result"
+}

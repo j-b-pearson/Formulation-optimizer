@@ -1,0 +1,7 @@
+method,metric,mean,ci_lo,ci_hi,ci_above_zero,ci_below_zero,n_seeds,seeds_better,seeds_tied,seeds_worse
+bo_cost_cooled,spend_saved,-175.21660664712894,-714.6140924415633,369.01350335817654,False,False,100,19,60,21
+bo_cost_cooled,success_gain,-0.03,-0.12,0.06,False,False,100,10,77,13
+bo_cost_cooled,regret_reduction,0.004289646161258615,-0.08424372085539837,0.08429195744993447,False,False,100,40,22,38
+bo_cost,spend_saved,-249.3378057056034,-941.9176736649566,378.24247962758625,False,False,100,29,47,24
+bo_cost,success_gain,0.02,-0.09,0.13024999999999864,False,False,100,19,64,17
+bo_cost,regret_reduction,0.05664561400708146,0.00012487420063346692,0.11686601800785423,True,False,100,50,11,39

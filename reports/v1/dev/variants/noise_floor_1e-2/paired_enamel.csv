@@ -1,0 +1,13 @@
+method_a,method_b,metric,better_is,mean_diff_a_minus_b,ci_lo,ci_hi,ci_excludes_zero,n_pairs,seeds_a_better,seeds_tied
+bo_cost,bo_plain,final_regret,lower,0.01186898298363972,-0.10851182002812673,0.18215806989184494,False,10,6,0
+bo_cost,bo_plain,spend_to_target_censored,lower,42.10603215051742,-2034.6908377727264,2285.1914031633873,False,10,2,6
+bo_cost,bo_plain,success,higher,0.1,-0.2,0.4,False,10,2,7
+bo_cost,bo_cost_cooled,final_regret,lower,-0.16439936615314413,-0.4228096462015328,0.0027480268525148306,False,10,5,3
+bo_cost,bo_cost_cooled,spend_to_target_censored,lower,-780.165282619563,-2217.5022575476364,474.36027253360044,False,10,2,7
+bo_cost,bo_cost_cooled,success,higher,0.2,0.0,0.5,False,10,2,8
+bo_cost_cooled,bo_plain,final_regret,lower,0.17626834913678385,-0.01727094720899928,0.40018733319471944,False,10,3,2
+bo_cost_cooled,bo_plain,spend_to_target_censored,lower,822.2713147700804,0.0,2466.8139443102414,False,10,0,9
+bo_cost_cooled,bo_plain,success,higher,-0.1,-0.3,0.0,False,10,0,9
+bo_cost_cooled,bo_cost,final_regret,lower,0.16439936615314413,-0.002748026852514841,0.4228096462015327,False,10,2,3
+bo_cost_cooled,bo_cost,spend_to_target_censored,lower,780.165282619563,-474.36027253360044,2217.5022575476364,False,10,1,7
+bo_cost_cooled,bo_cost,success,higher,-0.2,-0.5,0.0,False,10,0,8

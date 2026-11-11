@@ -1,0 +1,7 @@
+s,method,mean,ci_lo,ci_hi,ci_above_zero,ci_below_zero,n_seeds,seeds_better,seeds_tied,seeds_worse
+1.0,bo_cost_cooled,0.0,0.0,0.0,False,False,100,0,100,0
+1.0,bo_cost,0.0,0.0,0.0,False,False,100,0,100,0
+3.0,bo_cost_cooled,21.197697908920098,-134.17703510055262,186.1859704226267,False,False,100,8,84,8
+3.0,bo_cost,44.64500499435442,-119.64001042476757,210.4828333478746,False,False,100,10,84,6
+10.0,bo_cost_cooled,93.91604081151047,-34.83664134659556,240.50753343100922,False,False,100,11,84,5
+10.0,bo_cost,134.95498352841432,-7.29182632193085,300.7733516747773,False,False,100,12,83,5

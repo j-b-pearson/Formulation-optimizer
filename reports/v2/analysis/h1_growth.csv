@@ -1,0 +1,7 @@
+method,metric,low_level,high_level,A_s1,A_s3,A_s10,growth,growth_ci_lo,growth_ci_hi,growth_ci_above_zero,non_decreasing_across_levels,criterion_met
+bo_cost_cooled,spend_saved,1.0,10.0,0.0,-320.3322679252418,-255.46446444083008,-255.46446444083008,-880.6807643606388,338.4760860495189,False,False,False
+bo_cost_cooled,success_gain,1.0,10.0,0.0,-0.05,-0.01,-0.01,-0.11,0.1,False,False,False
+bo_cost_cooled,regret_reduction,1.0,10.0,0.0,0.011987778254967054,0.043700378592383286,0.043700378592383286,-0.02443584603031548,0.11452521834800587,False,True,False
+bo_cost,spend_saved,1.0,10.0,0.0,-184.50735198905954,-467.62139328012023,-467.62139328012023,-1114.0783656526648,157.17080392879802,False,False,False
+bo_cost,success_gain,1.0,10.0,0.0,0.01,-0.03,-0.03,-0.14,0.09,False,False,False
+bo_cost,regret_reduction,1.0,10.0,0.0,0.02814008947934527,0.01776052474264457,0.01776052474264457,-0.06159610748081544,0.09207145434359167,False,False,False

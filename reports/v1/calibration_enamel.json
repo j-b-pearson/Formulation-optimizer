@@ -1,0 +1,51 @@
+{
+  "problem": "enamel",
+  "feasible_fraction": 0.258,
+  "feasible_fraction_ok": true,
+  "n_samples": 200000,
+  "reference_cost": 2.925792411625194,
+  "reference_cost_before_polish": 2.9615045171082324,
+  "reference_recipe": {
+    "pai_fraction": 0.0,
+    "solids_pct": 35.181012863287314,
+    "catalyst_phr": 0.0,
+    "oven_temp_c": 535.0415766556212,
+    "line_speed_m_min": 15.77945972810415
+  },
+  "true_outputs_at_reference": {
+    "breakdown_kv": 30.533775508155973,
+    "flex_pass": 0.9735081400461137,
+    "viscosity_cp": 2000.0008516435876
+  },
+  "spec_relative_distance_at_reference": {
+    "breakdown_kv>=30": 0.017792516938532423,
+    "flex_pass>=0.8": 0.21688517505764213,
+    "viscosity_cp>=2000": 4.2582179378314324e-07,
+    "viscosity_cp<=15000": 0.8666666098904274
+  },
+  "active_specs_within_2pct": [
+    "breakdown_kv>=30",
+    "viscosity_cp>=2000"
+  ],
+  "active_spec_ok": true,
+  "variable_at_bound": {
+    "pai_fraction": true,
+    "solids_pct": false,
+    "catalyst_phr": true,
+    "oven_temp_c": false,
+    "line_speed_m_min": false
+  },
+  "optimum_at_corner_on_every_variable": false,
+  "run_cost_min": 312.07918790361293,
+  "run_cost_max": 1858.7709814686184,
+  "run_cost_median": 662.4251610220771,
+  "run_cost_ratio_max_min": 5.9560876005698535,
+  "run_cost_ratio_ok": true,
+  "cost_cap_if_none_feasible": 7.69,
+  "noise": {
+    "breakdown_kv_sd": 1.0,
+    "breakdown_sd_over_spec_limit": 0.03333333333333333,
+    "viscosity_log_sd": 0.03,
+    "flex_specimens": 5.0
+  }
+}

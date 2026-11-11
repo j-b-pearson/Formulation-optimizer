@@ -1,0 +1,66 @@
+{
+  "problem": "concrete",
+  "feasible_fraction": 0.25792,
+  "feasible_fraction_ok": true,
+  "n_samples": 200000,
+  "reference_cost": 85.39960293276062,
+  "reference_cost_before_polish": 89.54659619766292,
+  "reference_recipe": {
+    "cement": 349.81333962088695,
+    "slag": 0.20248366273857696,
+    "fly_ash": 0.0,
+    "water": 157.4764205190219,
+    "superplasticizer": 0.19836931381811762,
+    "coarse_agg": 1028.4060424141312,
+    "fine_agg": 677.3375205392153
+  },
+  "true_outputs_at_reference": {
+    "strength_mpa": 50.010214887184006
+  },
+  "spec_relative_distance_at_reference": {
+    "strength_mpa>=50": 0.00020429774368011522
+  },
+  "active_specs_within_2pct": [
+    "strength_mpa>=50"
+  ],
+  "active_spec_ok": true,
+  "variable_at_bound": {
+    "cement": false,
+    "slag": true,
+    "fly_ash": true,
+    "water": false,
+    "superplasticizer": true,
+    "coarse_agg": false,
+    "fine_agg": false
+  },
+  "optimum_at_corner_on_every_variable": false,
+  "run_cost_min": 252.75063932247443,
+  "run_cost_max": 258.1875395749549,
+  "run_cost_median": 255.41280505787887,
+  "run_cost_ratio_max_min": 1.0215109258162696,
+  "run_cost_ratio_ok": false,
+  "cost_cap_if_none_feasible": 244.9422,
+  "noise": {
+    "strength_noise_sd_mpa": 5.0,
+    "grouped_cv_residual_sd_mpa": 5.72563343368075
+  },
+  "feasible_fraction_by_target_mpa": {
+    "40": 0.53728,
+    "45": 0.39632,
+    "50": 0.25906,
+    "55": 0.13796,
+    "60": 0.03842
+  },
+  "target_strength_mpa": 50.0,
+  "age_days": 28.0,
+  "emulator_kind": "extra_trees",
+  "domain_threshold": 1.685078427383487,
+  "total_mass_range": [
+    2194.6,
+    2551.0
+  ],
+  "wb_range": [
+    0.23507335380416242,
+    0.9
+  ]
+}

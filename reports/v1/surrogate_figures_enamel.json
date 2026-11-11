@@ -1,0 +1,12 @@
+{
+  "method": "bo_cost_cooled",
+  "seed": 16,
+  "x_ref": {
+    "pai_fraction": 0.008310983798833882,
+    "solids_pct": 38.397384961173515,
+    "catalyst_phr": 0.07905015033715079,
+    "oven_temp_c": 499.73859231586584,
+    "line_speed_m_min": 13.818019517171182
+  },
+  "source_run": "30 seeds, full mode, budget $15,000"
+}
